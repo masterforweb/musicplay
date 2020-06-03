@@ -1,0 +1,96 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f8e91e3555b5f9a7b5759e621a278b9f",
+    "packages": [
+        {
+            "name": "masterforweb/db_lite",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/db_lite",
+                "reference": "d1f7ddb5b426bc976b4fe637f5b58e9144657167"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "db_lite.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AK Delfin",
+                    "email": "masterforweb@hotmail.com"
+                }
+            ],
+            "description": "lite pdo sql",
+            "homepage": "https://github.com/masterforweb/db_lite",
+            "keywords": [
+                "microframework",
+                "php quick start",
+                "rest",
+                "router"
+            ],
+            "time": "2020-02-27T06:41:53+00:00"
+        },
+        {
+            "name": "masterforweb/kuri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterforweb/kuri",
+                "reference": "444b212605e177bd846e10790e15768e305545e1"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "_kuri.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AK Delfin",
+                    "email": "masterforweb@hotmail.com"
+                }
+            ],
+            "description": "Autorouting without regular. MVC standart role: controller/action/params. Quick start",
+            "homepage": "https://github.com/masterforweb/_kuri",
+            "keywords": [
+                "microframework",
+                "php quick start",
+                "rest",
+                "router"
+            ],
+            "time": "2020-03-02T20:15:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "masterforweb/kuri": 20,
+        "masterforweb/db_lite": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

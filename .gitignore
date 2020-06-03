@@ -1,0 +1,4 @@
+vendor
+app/pub/music
+*.mp3
+*.mp4
